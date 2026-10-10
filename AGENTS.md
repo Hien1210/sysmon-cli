@@ -32,6 +32,7 @@ Dự án được thiết kế theo mô hình mô-đun rõ ràng:
 3. **`TerminalUI` (Giao diện hiển thị):** Xử lý việc làm mới màn hình Terminal, vẽ biểu đồ thanh (Bar Chart) và định dạng bảng dữ liệu gọn gàng.
 4. **`Main Loop` (Luồng điều khiển chính):** Điều phối chu kỳ cập nhật (ví dụ: quét phần cứng mỗi 1 giây) và lắng nghe phím bấm từ người dùng.
 
+---
 
 ## 4. Quy chuẩn lập trình C++ (Coding Guidelines)
 * **Quản lý bộ nhớ an toàn:** Ưu tiên sử dụng Smart Pointers (`std::unique_ptr`, `std::shared_ptr`) thay vì quản lý con trỏ thô (`new`/`delete`) để tránh rò rỉ bộ nhớ (memory leaks).
